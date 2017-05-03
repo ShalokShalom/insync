@@ -1,7 +1,3 @@
-# Maintainer: Nate Levesque <public@thenaterhood.com>
-# Contributor: Vlad M. <vlad@archlinux.net>
-# Contributor: Zhengyu Xu <xzy3186@gmail.com>
-
 pkgname=insync
 pkgver=1.3.16
 _pkgver=36155
@@ -11,7 +7,7 @@ url="https://www.insynchq.com/downloads"
 license=('custom:insync')
 options=(!strip !upx)
 depends=('xdg-utils' 'glibc' 'python2')
-arch=('i686' 'x86_64')
+arch=('x86_64')
 source=('insync@.service' 'insync.service')
 source_i686=("http://s.insynchq.com/builds/${pkgname}_${pkgver}.${_pkgver}-trusty_i386.deb")
 source_x86_64=("http://s.insynchq.com/builds/${pkgname}_${pkgver}.${_pkgver}-trusty_amd64.deb")
