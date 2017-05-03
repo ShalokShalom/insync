@@ -1,8 +1,8 @@
 # insync
 
-Google Drive Client
+Unofficial Google Drive Client for KaOS
 
-[Homepage](https://www.insynchq.com//)
+[Homepage](https://www.insynchq.com/)
 
 ### Install:
 ```
