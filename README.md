@@ -6,5 +6,7 @@ Unofficial Google Drive Client for KaOS
 
 ### Install:
 ```
-kcp -i insync
+cd insync
+makepkg -s
+makepkg -i
 ```
